@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&display=swap");
+
+body {
+  /* background-color:yellow; */
+  margin-top: 45px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b5bdc8+0,828c95+36,28343b+100;Grey+Black+3D */
+  background: #b5bdc8; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #b5bdc8 0%,
+    #828c95 36%,
+    #28343b 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #b5bdc8 0%,
+    #828c95 36%,
+    #28343b 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #b5bdc8 0%,
+    #828c95 36%,
+    #28343b 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  margin: auto;
+  margin-top: 5px;
+  text-align: center;
+  background-color: #5c5c5c;
+  width: 400px;
+  height: 475px;
+  border-radius: 50px;
+  position: relative;
+  box-shadow: inset 0px -3px 3px 3px rgba(0, 0, 0, 0.54),
+    0px 4px 2px 0px rgba(0, 0, 0, 0.64);
+}
+
+.innerBox {
+  position: absolute;
+  height: 390px;
+  width: 320px;
+  margin: 40px auto auto 40px;
+}
+
+.display {
+  height: 70px;
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+#out {
+  height: 80px;
+  width: 100%;
+  background-image: linear-gradient(
+  0deg,
+  hsl(120deg 2% 55%) 0%,
+  hsl(117deg 3% 58%) 16%,
+  hsl(115deg 4% 60%) 24%,
+  hsl(114deg 4% 63%) 30%,
+  hsl(113deg 5% 65%) 35%,
+  hsl(112deg 6% 67%) 40%,
+  hsl(112deg 7% 69%) 45%,
+  hsl(111deg 8% 71%) 50%,
+  hsl(111deg 9% 73%) 55%,
+  hsl(110deg 11% 75%) 60%,
+  hsl(110deg 12% 77%) 65%,
+  hsl(110deg 14% 79%) 70%,
+  hsl(110deg 16% 81%) 76%,
+  hsl(110deg 19% 83%) 84%,
+  hsl(109deg 22% 85%) 100%
+);
+  margin: auto;
+  border-radius: 10px;
+  font-size: 40px;
+  text-align: right;
+}
+
+.keys {
+  margin-top: 15px;
+}
+
+h {
+  color: white;
+}
+button {
+  font-weight: 600;
+  color: black;
+  font-size: 35px;
+  width: 71px;
+  background-color: #eeeeee;
+  border-radius: 12px;
+  margin-top: 15px;
+  margin-left: 5px;
+  border: white;
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    margin-top: 30px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+
+  .container {
+    width: 350px;
+    border-radius: 50px;
+    height: 425px;
+  }
+
+  .innerBox {
+    width: 285px;
+    margin: 30px auto auto 30px;
+  }
+
+  #out {
+    height: 50px;
+    font-size: 35px;
+  }
+
+  .display {
+    height: 50px;
+  }
+
+  button {
+    font-size: 31px;
+    width: 62px;
+  }
+}
+
+.equal{
+  background-color: #e7a042;
+}
